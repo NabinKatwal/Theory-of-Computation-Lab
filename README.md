@@ -54,5 +54,3 @@ Some hints: The main idea is to create a different DFA for each type of the toke
 into a single DFA. In addition, you may require to read one character ahead than the current input char-
 acter - such a technique is called ‘lookahead’ in compiler theory. Before attempting to write the program,
 it would be easier if you first read the chapter on lexical analysis from any standard book on compiler design.
-Deadline: For part 1, one week after you receive this assignment. For part 2, you can submit any time
-before the end of semester.
