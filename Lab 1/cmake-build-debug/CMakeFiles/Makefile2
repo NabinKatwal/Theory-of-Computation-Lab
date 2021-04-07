@@ -58,6 +58,7 @@ CMAKE_BINARY_DIR = "D:\Fourth Sem\TOC\Theory-of-Computation-Lab\Lab 1\cmake-buil
 
 # The main recursive "all" target.
 all: CMakeFiles\Lab_1.dir\all
+all: CMakeFiles\password_checker.dir\all
 
 .PHONY : all
 
@@ -68,6 +69,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles\Lab_1.dir\clean
+clean: CMakeFiles\password_checker.dir\clean
 
 .PHONY : clean
 
@@ -97,6 +99,33 @@ Lab_1: CMakeFiles\Lab_1.dir\rule
 CMakeFiles\Lab_1.dir\clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab_1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab_1.dir\clean
 .PHONY : CMakeFiles\Lab_1.dir\clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/password_checker.dir
+
+# All Build rule for target.
+CMakeFiles\password_checker.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\password_checker.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\password_checker.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\password_checker.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\password_checker.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Fourth Sem\TOC\Theory-of-Computation-Lab\Lab 1\cmake-build-debug\CMakeFiles" --progress-num=3,4 "Built target password_checker"
+.PHONY : CMakeFiles\password_checker.dir\all
+
+# Build rule for subdir invocation for target.
+CMakeFiles\password_checker.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Fourth Sem\TOC\Theory-of-Computation-Lab\Lab 1\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\password_checker.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Fourth Sem\TOC\Theory-of-Computation-Lab\Lab 1\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles\password_checker.dir\rule
+
+# Convenience name for target.
+password_checker: CMakeFiles\password_checker.dir\rule
+
+.PHONY : password_checker
+
+# clean rule for target.
+CMakeFiles\password_checker.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\password_checker.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\password_checker.dir\clean
+.PHONY : CMakeFiles\password_checker.dir\clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

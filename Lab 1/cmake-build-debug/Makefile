@@ -127,6 +127,19 @@ Lab_1\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab_1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab_1.dir\build
 .PHONY : Lab_1\fast
 
+#=============================================================================
+# Target rules for targets named password_checker
+
+# Build rule for target.
+password_checker: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) password_checker
+.PHONY : password_checker
+
+# fast build rule for target.
+password_checker\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\password_checker.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\password_checker.dir\build
+.PHONY : password_checker\fast
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -154,6 +167,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab_1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab_1.dir\main.cpp.s
 .PHONY : main.cpp.s
 
+password_checker.obj: password_checker.cpp.obj
+
+.PHONY : password_checker.obj
+
+# target to build an object file
+password_checker.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\password_checker.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\password_checker.dir\password_checker.cpp.obj
+.PHONY : password_checker.cpp.obj
+
+password_checker.i: password_checker.cpp.i
+
+.PHONY : password_checker.i
+
+# target to preprocess a source file
+password_checker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\password_checker.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\password_checker.dir\password_checker.cpp.i
+.PHONY : password_checker.cpp.i
+
+password_checker.s: password_checker.cpp.s
+
+.PHONY : password_checker.s
+
+# target to generate assembly for a file
+password_checker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\password_checker.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\password_checker.dir\password_checker.cpp.s
+.PHONY : password_checker.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -163,9 +203,13 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Lab_1
+	@echo ... password_checker
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... password_checker.obj
+	@echo ... password_checker.i
+	@echo ... password_checker.s
 .PHONY : help
 
 
