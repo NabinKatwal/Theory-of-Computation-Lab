@@ -47,7 +47,7 @@ int main(){
         if(error==1){
             cout<<"Error in input."<<endl;
         }else{
-            cout<<endl<<"The final state position of string is "<<current_state;
+//            cout<<endl<<"The final state position of string is "<<current_state;
 
             if(current_state==2){
                 cout<<endl<<"The current string is accepted by DFA"<<endl;
@@ -55,8 +55,8 @@ int main(){
                 cout<<endl<<"The current string is rejected by DFA"<<endl;
             }
         }
-
         cout<<endl<<"Enter another string? (1/0): ";
+        fflush(stdin);
         cin>>repeat;
         cout<<endl;
     } while (repeat==1);
