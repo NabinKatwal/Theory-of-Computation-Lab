@@ -1,4 +1,4 @@
-D:/Fourth Sem/TOC/Theory-of-Computation-Lab/Lab 1/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Fourth Sem/TOC/Theory-of-Computation-Lab/Lab 1/cmake-build-debug/CMakeFiles/Lab_1.dir
-D:/Fourth Sem/TOC/Theory-of-Computation-Lab/Lab 1/cmake-build-debug/CMakeFiles/password_checker.dir
-D:/Fourth Sem/TOC/Theory-of-Computation-Lab/Lab 1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/nabee/Desktop/lab_4th/Theory-of-Computation-Lab/Lab 1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/nabee/Desktop/lab_4th/Theory-of-Computation-Lab/Lab 1/cmake-build-debug/CMakeFiles/Lab_1.dir
+C:/Users/nabee/Desktop/lab_4th/Theory-of-Computation-Lab/Lab 1/cmake-build-debug/CMakeFiles/password_checker.dir
+C:/Users/nabee/Desktop/lab_4th/Theory-of-Computation-Lab/Lab 1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

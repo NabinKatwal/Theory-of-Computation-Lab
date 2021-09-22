@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/password_checker.dir/password_checker.cpp.obj"
+  "libpassword_checker.dll.a"
   "password_checker.exe"
   "password_checker.exe.manifest"
-  "password_checker.lib"
   "password_checker.pdb"
 )
 
